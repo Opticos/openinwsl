@@ -42,9 +42,9 @@ WSL (with the WSL2 update)
 
 
 
-### Using OpenInWSL (Nothing Here Yet)
+### Using OpenInWSL
 
-[GWSL Manual](./tutorials/manual.html)
+[OpenInWSL Manual](./tutorials/manual.html) (Nothing Here Yet)
 
 Quick Links:
 
@@ -52,7 +52,6 @@ Quick Links:
 
 [Enabling WSL and Installing Distros](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
-[Creating Start Menu Shortcuts for Linux Apps](./tutorials/manual.html#using-the-gwsl-shortcut-creator).
 
 
 ### Frequently Asked Questions ###
@@ -62,7 +61,7 @@ Quick Links:
 
 ### Help and Support
 
-Need help? Visit our [help page](https://opticos.github.io/gwsl/help.html).
+Need help? Visit our [help page](https://opticos.github.io/openinwsl/help.html).
 
 ### Donate ###
 
@@ -104,6 +103,7 @@ If you enjoy OpenInWSL, please consider buying me a cup of coffee. I worked hard
 
 ### My Other Sites:
 <!--*  [LinkedIn Profile](https://www.linkedin.com/in/paul-elliot-foy)-->
+*  [GWSL Website](https://opticos.github.io/gwsl)
 *  [Opticos Main Website](https://sites.google.com/bartimee.com/opticos-studios/home)
 *  [Optico5 on Bandcamp](https://opticos.bandcamp.com/)
 *  [Optico5 on Soundcloud](https://soundcloud.com/opticos)
