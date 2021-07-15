@@ -26,7 +26,7 @@ Once Windows is up to date, be sure you have the WSL feature installed and confi
 
 To make sure WSL is installed correctly, type ```wsl.exe``` in the command line and verify that there are no errors.
 
-You also need an XServer like [GWSL (Recommended)]("https://opticos.github.io/gwsl") to provide graphics functionality in WSL. Wslg also works.
+You also need an XServer like [GWSL (Recommended)](https://opticos.github.io/gwsl) to provide graphics functionality in WSL. Wslg also works.
 
 ### Installing OpenInWSL ###
 
