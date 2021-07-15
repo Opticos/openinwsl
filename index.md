@@ -48,7 +48,7 @@ Visit Our Discord Server (Fast responses):
 
 [![Discord Banner 3](https://discord.com/api/guilds/618185330289541130/widget.png?style=banner3)](https://discord.gg/VkvNgkH)
 
-[GitHub Issues Page](https://github.com/Pololot64/OpenInWSL/issues) (Note this repo and page will move to Opticos/OpenInWSL when testing is complete)
+[GitHub Issues Page](https://github.com/opticos/OpenInWSL-source/issues)
 
 Contact us by email:
 
