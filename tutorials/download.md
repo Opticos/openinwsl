@@ -15,5 +15,6 @@ permalink: /tutorials/download.html
 ### [See the sources.](https://github.com/Opticos/GWSL-Source) (Coming Soon)
 
 ### Also, there is an itch.io page: (Coming Soon)
-
+<!---
 <iframe src="https://itch.io/embed/779749" width="552" height="167" frameborder="0"><a href="https://opticos.itch.io/gwsl">GWSL by Optico5</a></iframe>
+-->
