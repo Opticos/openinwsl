@@ -5,12 +5,13 @@ title: OpenInWSL
 
 ## OpenInWSL
 
-### Site Under Construction. See the video to get the idea:
+### Demo & Tutorial video:
 
+Here is a video showing it in action:
 
-Here is another video showing it in action:
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S6GXBEQ5KzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8SPFVe47qYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 ## OpenInWSL Is Currently in Beta Testing.
 
 Current Testing Version: 1.2 [Download Here](https://github.com/Pololot64/OpenInWSL/releases/download/v1.2beta/OpenInWSL.Traditional.beta.1-2.release.x64.exe)
