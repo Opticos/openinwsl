@@ -5,6 +5,24 @@ title: OpenInWSL
 <img src="https://opticos.github.io/openinwsl/tutorials/banner.png">
 ## OpenInWSL
 
+### What does OpenInWSL do?
+OpenInWSL lets you set WSL Linux apps as File Handlers in Windows.
+
+No more crazy custom code and batch files! Make any Linux app open any file directly from the File Explorer with one click!
+
+Even more Windows to WSL integration!
+
+Features:
+* Supports adding an "Open In WSL" item to the File Explorer context menu.
+
+* Supports being set as a file handler for all formats.
+
+* Lets you create and manage associations to forward different windows file types to any Linux program.
+
+* OpenInWSL Integrates with GWSL, wslg, and any other xservers. (GWSL is recommended). OpenInWSL does not provide graphics.
+
+Watch the cool video to see more ⬇
+
 ### Demo & Tutorial video:
 
 Here is a video showing it in action:
