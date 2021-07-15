@@ -1,32 +1,25 @@
 ---
 layout: default
-title: GWSL Manual
+title: OpenInWSL Manual
 permalink: /tutorials/manual.html
 ---
 ## Table of Contents
 1.  [Prerequisites](#prerequisites)
-2.  [Installing GWSL](#installing-gwsl)
-3.  [The GWSL User Interface](#the-gwsl-user-interface)
-4.  [Configuring a WSL Distro for use with GWSL](#configuring-a-wsl-distro-for-use-with-gwsl)
-5.  [Using the GWSL Shortcut Creator](#using-the-gwsl-shortcut-creator)
-6.  [Using the Integrated Linux App Launcher](#using-the-integrated-linux-app-launcher)
-7.  [Installing a Graphical Package Manager](#installing-a-graphical-package-manager)
-8.  [Using GWSL with a Full Linux Desktop](#using-gwsl-with-a-full-linux-desktop)
-9.  [Using GWSL with SSH](#using-gwsl-with-ssh)
-10.  [Using GWSL with other Shells](#using-gwsl-with-other-shells)
-11.  [Using GWSL Configuration Files](#using-gwsl-configuration-files)
-12.  [Finding Logs](#finding-logs)
-13.  [Starting GWSL Silently (without dashboard)](#silent-startup)
-14.  [Troubleshooting](#troubleshooting)
+2.  [Installing OpenInWSL](#installing-gwsl)
+3.  [The OpenInWSL User Interface](#the-gwsl-user-interface)
+4.  [Getting Linux File Handler Apps on WSL](#configuring-a-wsl-distro-for-use-with-gwsl)
+5.  [Using OpenInWSL Configuration Files](#using-gwsl-configuration-files)
+6.  [Finding Logs](#finding-logs)
+7.  [Troubleshooting](#troubleshooting)
 
 
 ***
 
-## GWSL Manual
+## OpenInWSL Manual
 
 ### Prerequisites ###
 
-GWSL requires [Windows 10 version 2004](https://support.microsoft.com/en-us/help/4028685/windows-10-get-the-update). If you do not have it, please update Windows to continue.
+OpenInWSL requires [Windows 10 version 2004](https://support.microsoft.com/en-us/help/4028685/windows-10-get-the-update). If you do not have it, please update Windows to continue.
 
 Once Windows is up to date, be sure you have the WSL feature installed and configured properly. Here are some helpful links:
 *  [Familiarizing Yourself With WSL](https://docs.microsoft.com/en-us/windows/wsl/about)
@@ -34,20 +27,15 @@ Once Windows is up to date, be sure you have the WSL feature installed and confi
 
 To make sure WSL is installed correctly, type ```wsl.exe``` in the command line and verify that there are no errors.
 
-### Installing GWSL ###
+You also need an XServer like [GWSL (Recommended)]("https://opticos.github.io/gwsl") to provide graphics functionality in WSL. Wslg also works.
+
+### Installing OpenInWSL ###
 
 GWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3).
 
-On the first run of GWSL, Windows will ask you if you want to allow GWSL through the firewall. GWSL requires public network access to function. You may be asked to allow access twice when using certain options in the [Shortcut Creator](#using-the-gwsl-shortcut-creator) or changing the dpi mode(See Options with an Asterisk).
+Note: Some Antiviruses might detect OpenInWSL and block its installation. This is a known bug in Pyinstaller, the program I use to package OpenInWSL. If this occurs, you might want to disable the Antivirus during installation.
 
-If you are not sure you allowed GWSL through the firewall, you can test the xserver by going to the GWSL Dashboard --> About --> XClock. A simple clock window should open.
-
-If you did not allow it through the firewall the first time, you can simply go to the GWSL Dashboard --> About --> Allow GWSL Through the Firewall.
-This will open a window to show you how to allow it. (This feature was added in GWSL 1.3.8)
-
-Note: Some Antiviruses might detect GWSL and block its installation. This is a known bug in Pyinstaller, the program I use to package GWSL. If this occurs, you might want to disable the Antivirus during installation.
-
-### The GWSL User Interface ###
+### The OpenInWSL User Interface ###
 #### The Dashboard 
 
 You can open the GWSL Dashboard by clicking the GWSL icon in the Start Menu. Once GWSL is running, you can quickly pull up the Dashboard with ```CTRL+ALT+G``` or by clicking the "G" icon in the notification area.
