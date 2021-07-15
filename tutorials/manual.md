@@ -45,13 +45,13 @@ OpenInWSL lets you set WSL Linux apps as file handlers in Windows.
 #### Steps to use OpenInWSL
 
 1. To setup and association, simply right click a file in Windows Explorer and select "Open In WSL". You can also use the "Open With" menu to make a certain file type always always open in WSL.
-2. The first time any specific file type is opened using OpenInWSL, the Association Editor dialog will open.
+2. The first time any specific file type is opened using OpenInWSL, the Association Editor will appear.
 3. Select the distro where your WSL app is installed.
 4. Enter the command to launch the app or quickly find it using the "App List" button.
 5. You can use any custom arguments after your command. If the file's path is not the last argument, specify its position with the ```#fpth#``` variable. Ex. ```gedit #fpth# --new-window```.
 6. You can use the manpage button at any time to open the current command's manual page.
 7. Test your configuration and save. 
-8. Now when OpenInWSL encounters this file type it will know how to handle it in WSL.
+8. Now, when OpenInWSL encounters this file type, it will know how to handle it in WSL.
 9. You can use the "Manage File Associations" button to edit your associations after they have been created.
 
 ### Using OpenInWSL Configuration Files ###
