@@ -46,7 +46,7 @@ WSL (with the WSL2 update)
 
 ### Using OpenInWSL
 
-[OpenInWSL Manual](./tutorials/manual.html) (Nothing Here Yet)
+[OpenInWSL Manual](./tutorials/manual.html)
 
 Quick Links:
 
