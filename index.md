@@ -15,11 +15,16 @@ Even more Windows to WSL integration!
 Features:
 * Supports adding an "Open In WSL" item to the File Explorer context menu.
 
-* Supports being set as a file handler for all formats.
+* Supports being set as a file handler for any format.
 
 * Lets you create and manage associations to forward different windows file types to any Linux program.
 
 * OpenInWSL Integrates with GWSL, wslg, and any other xservers. (GWSL is recommended). OpenInWSL does not provide graphics.
+
+Basically, OpenInWSL lets you replace something like notepad.exe with gedit in WSL for opening text files. In this case Windows will now automatically open text files in gedit!
+This is especially useful if you use WSL Linux-based IDE's to edit files stored on Windows. No more opening the WSL shell to anually open the file. 
+
+Just click it! (Or right click and select "Open In WSL" if you want to use a Windows IDE too!)
 
 Watch the cool video to see more ⬇
 
