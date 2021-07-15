@@ -12,7 +12,7 @@ permalink: /tutorials/download.html
 
 ### Winget downloads the Traditional Installer version. (Coming Soon)
 
-### [See the sources.](https://github.com/Opticos/GWSL-Source) (Coming Soon)
+### [See the sources.](https://github.com/Opticos/openinwsl-Source)
 
 ### Also, there is an itch.io page: (Coming Soon)
 <!---
