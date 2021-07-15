@@ -2,7 +2,7 @@
 layout: homepage
 title: OpenInWSL
 ---
-
+<img src="https://opticos.github.io/openinwsl/tutorials/banner.png">
 ## OpenInWSL
 
 ### Demo & Tutorial video:
