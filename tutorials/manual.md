@@ -7,10 +7,9 @@ permalink: /tutorials/manual.html
 1.  [Prerequisites](#prerequisites)
 2.  [Installing OpenInWSL](#installing-openinwsl)
 3.  [Using OpenInWSL](#using-openinwsl)
-4.  [Getting Linux File Handler Apps on WSL](#configuring-a-wsl-distro-for-use-with-gwsl)
-5.  [Using OpenInWSL Configuration Files](#using-openinwsl-configuration-files)
-6.  [Finding Logs](#finding-logs)
-7.  [Troubleshooting](#troubleshooting)
+4.  [Using OpenInWSL Configuration Files](#using-openinwsl-configuration-files)
+5.  [Finding Logs](#finding-logs)
+6.  [Troubleshooting](#troubleshooting)
 
 
 ***
@@ -41,40 +40,26 @@ Note: Some Antiviruses might detect OpenInWSL and block its installation. This i
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8SPFVe47qYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+OpenInWSL lets you set WSL Linux apps as file handlers in Windows.
+
+#### Steps to use OpenInWSL
+
+1. To setup and association, simply right click a file in Windows Explorer and select "Open In WSL". You can also use the open with menu to make a certain file type always always open in WSL.
+2. The first time any specific file type is opened using OpenInWSL, the Association Editor dialog will open.
+3. Select the distro where your WSL app is installed.
+4. Enter the command to launch the app or quickly find it using the "App List" button.
+5. You can use any custom arguments after your command. If the file's path is not the last argument, specify its position with the ```#fpth#``` variable. Ex. ```gedit #fpth# --new-window```.
+6. You can use the manpage button at any time to open the current command's manual page.
+7. Test your configuration and save. 
+8. Now when OpenInWSL encounters this file type it will know how to handle it in WSL.
+9. You can use the "Manage File Associations" button to edit your associations after they have been created.
 
 ### Using OpenInWSL Configuration Files ###
 
-#### The GWSL blacklist configuration option allows users to block certain applications and distros from showing up in the app launcher and machine chooser.
-1.  Open Windows Explorer.
+#### Opening the Settings File
+To open the settings file, launch OpenInWSL and click "Configuration File".
 
-2.  In the path entry box, paste ```%AppData%/GWSL/```and hit enter.
-
-3.  The configuration file is called ```settings.json```.
-
-4.  Stop the GWSL Service and open this file in your favorite text editor to make changes.
-
-#### Blocking Distros
-
-In the settings file, add the phrases you want blocked to the ```distro_blacklist``` list.
-
-#### Blocking Apps
-
-In the settings file, add the phrases you want blocked to the ```app_blacklist``` list.
-
-##### Note: The format for the blacklists is ```["name1", "name2", "name3"]```. Commas are required between entries.
-
-#### Changing the position of the GWSL Dashboard
-
-The Dashboard in GWSL 1.3.6 can now be configured to pop up on the left side of the desktop. To access this option, open the configuration file and edit the ```"start_menu_mode"``` variable to be ```true``` (for left) or ```false``` (for default right).
-
-#### Changing the Default Terminal App
-
-You can use CMD or the new Windows Terminal. In the settings file, change the value of ```"shell_gui"``` to ```"wt"``` to use Windows Terminal or use ```"cmd"``` to use CMD.
-
-#### Disabling Acrylic for Compatibility with HDR Displays
-
-The GWSL Dashboard does not always display properly when HDR is on (on certain displays). To fix this, open the settings file and set the value of ```"acrylic_enabled"``` to ```false```.
-
+Everything in the settings file is exposed in the OpenInWSL GUI.
 
 ### Finding Logs ###
 
