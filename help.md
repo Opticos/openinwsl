@@ -8,8 +8,10 @@ permalink: /help.html
 
 Need help? Found a bug? Have an idea for a great new feature? Contact us!
 
+<!---
 We also have a manual:
 [OpenInWSL Manual](./tutorials/manual.html)
+-->
 
 
 ### Contact us by email
