@@ -30,7 +30,7 @@ You also need an XServer like [GWSL (Recommended)](https://opticos.github.io/gws
 
 ### Installing OpenInWSL ###
 
-OpenInWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9NL6KD1H33V3) or [here](https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3). (Coming Soon)
+OpenInWSL can be easily installed from the Microsoft Store. If it is not already installed, get it [here](ms-windows-store://pdp/?productid=9ngmqpwcg7sf) or [here](https://www.microsoft.com/en-us/p/openinwsl/9ngmqpwcg7sf). (Coming Soon)
 
 Note: Some Antiviruses might detect OpenInWSL and block its installation. This is a known bug in Pyinstaller, the program I use to package OpenInWSL. If this occurs, you might want to disable the Antivirus during installation.
 
