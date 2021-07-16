@@ -36,9 +36,9 @@ Here is a video showing it in action:
   <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8SPFVe47qYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## OpenInWSL Is Currently in Beta Testing.
+## Download:
 
-Current Testing Version: 1.2 [Download Here](https://github.com/Pololot64/OpenInWSL/releases/download/v1.2beta/OpenInWSL.Traditional.beta.1-2.release.x64.exe)
+<a href='//www.microsoft.com/store/apps/9ngmqpwcg7sf?cid=storebadge&ocid=badge'><img src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width='200'/></a>
 
 ### Beta Feedback:
 
