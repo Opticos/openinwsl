@@ -6,8 +6,9 @@ permalink: /tutorials/download.html
 
 ## Downloads
 
-### Get it on the [Microsoft Store](https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3) (Recommended. Windows 10 1903 and up. WSL2 Required). (Coming Soon)
+### Get it on the [Microsoft Store](https://www.microsoft.com/en-us/p/openinwsl/9ngmqpwcg7sf) (Recommended. Windows 10 1903 and up. WSL2 Required).
 
+### Traditional installer is not up to date with the store version atm
 ### [Traditional Windows Installer](https://github.com/Pololot64/OpenInWSL/releases/download/v1.2beta/OpenInWSL.Traditional.beta.1-2.release.x64.exe) (Windows 10 1903 and up. WSL2 Required).
 
 ### Winget downloads the Traditional Installer version. (Coming Soon)
