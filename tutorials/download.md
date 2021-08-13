@@ -10,7 +10,7 @@ permalink: /tutorials/download.html
 
 ### [Traditional Windows Installer](https://github.com/Opticos/OpenInWSL-Source/releases/) (Windows 10 1903 and up. WSL2 Required).
 
-### Winget downloads the Traditional Installer version: ```winget install openinwsl``` (coming soon)
+### Winget downloads the Traditional Installer version: ```winget install openinwsl```
 
 ### [See the sources.](https://github.com/Opticos/openinwsl-Source)
 
