@@ -38,9 +38,9 @@ Here is a video showing it in action:
 
 ## Download:
 
-<a href='//www.microsoft.com/store/apps/9ngmqpwcg7sf?cid=storebadge&ocid=badge'><img src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width='200'/></a>
+<a href='//www.microsoft.com/store/apps/9ngmqpwcg7sf?cid=storebadge&ocid=badge'><img data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width='200'/></a>
 
-### Beta Feedback:
+### Feedback:
 
 There are several ways you can give feedback. Please Do!
 
