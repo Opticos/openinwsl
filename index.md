@@ -2,7 +2,7 @@
 layout: homepage
 title: OpenInWSL
 ---
-<img src="https://opticos.github.io/openinwsl/tutorials/banner.png">
+<img src="https://opticos.github.io/openinwsl/tutorials/banner.png" data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt>
 ## OpenInWSL
 
 ### What does OpenInWSL do?
