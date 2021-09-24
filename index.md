@@ -103,6 +103,9 @@ If you enjoy OpenInWSL, please consider buying me a cup of coffee. I worked hard
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
+#### You can also donate via Bitcoin (No PayPal fees):
+_Bitcoin_: 38U4SYkb9TvD8Q1PwQ3USZ3RR6gKudVv7N
+
 ##### Or use Ko-Fi ☕
 <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#00C3F5', 'G2G24743G');kofiwidget2.draw();</script> 
 
