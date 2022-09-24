@@ -94,6 +94,11 @@ If you enjoy OpenInWSL, please consider buying me a cup of coffee. I worked hard
 
 ##### Any Amount Helps!
 
+#### [Venmo: @Paul_Foy (I am not charged a fee)](https://account.venmo.com/u/Paul_Foy)
+
+<a href='https://account.venmo.com/u/Paul_Foy'><img data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt src='https://opticos.github.io/gwsl/Venmo.png' alt='Venmo QR' width='400'/></a>
+
+
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations" />
 <input type="hidden" name="business" value="VV8W4XA2PZ5R8" />
