@@ -8,7 +8,7 @@ permalink: /tutorials/download.html
 
 <a href='//www.microsoft.com/store/apps/9ngmqpwcg7sf?cid=storebadge&ocid=badge'><img data-tilt-max="7.5" data-tilt-scale="1.025" data-tilt-speed="1000" data-tilt src='https://developer.microsoft.com/store/badges/images/English_get-it-from-MS.png' alt='English badge' width='200'/></a>
 
-### Get it on the [Microsoft Store](https://www.microsoft.com/en-us/p/openinwsl/9ngmqpwcg7sf) (Recommended. Windows 10 1903 and up. WSL2 Required).
+### Get it on the [Microsoft Store](https://www.microsoft.com/en-us/p/openinwsl/9ngmqpwcg7sf) (Recommended. Windows 11 or Windows 10 1903 and up. WSL2 Required).
 
 <!---
 ### [Traditional Windows Installer](https://github.com/Opticos/OpenInWSL-Source/releases/) (Windows 10 1903 and up. WSL2 Required).
