@@ -143,15 +143,20 @@
   </div>
 
   <script>
-    // Function to show the popup
-    function showPopup() {
-      document.getElementById('promoPopup').style.display = 'flex';
+   function showPopup() {
+      const popup = document.getElementById('promoPopup');
+      popup.style.display = 'flex';
+      setTimeout(() => popup.classList.add('active'), 10); // Add active class after slight delay
     }
 
     // Function to close the popup and set localStorage
     function closePopup() {
-      document.getElementById('promoPopup').style.display = 'none';
-      localStorage.setItem('popupShown', 'true');
+      const popup = document.getElementById('promoPopup');
+      popup.classList.remove('active'); // Remove active class for fade-out
+      setTimeout(() => {
+        popup.style.display = 'none';
+        localStorage.setItem('popupShown', 'true');
+      }, 500); // Match transition duration
     }
 
     // Check if popup has been shown before on page load
