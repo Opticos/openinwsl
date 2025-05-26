@@ -28,7 +28,7 @@
     <meta charset="UTF-8">
 
       <style>
-/* Popup container */
+    /* Popup container */
     .popup {
       display: none;
       position: fixed;
@@ -41,7 +41,7 @@
       justify-content: center;
       align-items: center;
       opacity: 0; /* Start invisible for fade-in */
-      transition: opacity 0.5s ease-in-out; /* Fade-in transition */
+      transition: opacity 0.3s ease-in-out; /* Updated to 0.3s */
     }
 
     /* Popup when visible */
@@ -52,16 +52,16 @@
 
     /* Popup content */
     .popup-content {
-      background-color: #dfecdd;
+      background-color: #dfecdd; /* Light green background */
       padding: 20px;
       border-radius: 8px;
       text-align: center;
-      max-width: 400px;
-      width: 80%;
+      max-width: 500px; /* Increased to accommodate larger image */
+      width: 90%; /* Slightly wider on smaller screens */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       opacity: 0; /* Start invisible for fade-in */
       transform: translateY(20px); /* Optional: slight slide-up effect */
-      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Fade-in and slide */
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Updated to 0.3s */
     }
 
     /* Popup content when visible */
@@ -72,16 +72,16 @@
 
     /* Image styling */
     .popup-content img {
-      max-width: 120%;
-      height: auto;
+      width: 100%; /* Image takes full width of popup content */
+      max-width: 450px; /* Cap image size for large screens */
+      height: auto; /* Maintain aspect ratio */
       border-radius: 5px;
       margin-bottom: 15px;
-      margin-top: 15px;
     }
 
     /* Close button */
     .popup-close {
-      background-color: #ff4444;
+      background-color: #666666; /* Muted gray */
       color: white;
       border: none;
       padding: 10px 20px;
@@ -91,12 +91,12 @@
     }
 
     .popup-close:hover {
-      background-color: #cc0000;
+      background-color: #4d4d4d; /* Darker gray for hover */
     }
 
     /* Link styling */
     .popup-content a {
-      color: #297e23;
+      color: #297e23; /* Green link color */
       text-decoration: none;
       font-weight: bold;
     }
