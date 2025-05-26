@@ -28,7 +28,7 @@
     <meta charset="UTF-8">
 
       <style>
-    /* Popup container */
+/* Popup container */
     .popup {
       display: none;
       position: fixed;
@@ -40,17 +40,34 @@
       z-index: 1000;
       justify-content: center;
       align-items: center;
+      opacity: 0; /* Start invisible for fade-in */
+      transition: opacity 0.5s ease-in-out; /* Fade-in transition */
+    }
+
+    /* Popup when visible */
+    .popup.active {
+      display: flex;
+      opacity: 1; /* Fully visible after fade-in */
     }
 
     /* Popup content */
     .popup-content {
-      background-color: #dfecdd;
+      background-color: white;
       padding: 20px;
       border-radius: 8px;
       text-align: center;
       max-width: 400px;
       width: 80%;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      opacity: 0; /* Start invisible for fade-in */
+      transform: translateY(20px); /* Optional: slight slide-up effect */
+      transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Fade-in and slide */
+    }
+
+    /* Popup content when visible */
+    .popup.active .popup-content {
+      opacity: 1;
+      transform: translateY(0); /* Move to original position */
     }
 
     /* Image styling */
@@ -78,7 +95,7 @@
 
     /* Link styling */
     .popup-content a {
-      color: #297e23;
+      color: #0066cc;
       text-decoration: none;
       font-weight: bold;
     }
