@@ -28,7 +28,7 @@
     <meta charset="UTF-8">
 
       <style>
-    /* Popup container */
+/* Popup container */
     .popup {
       display: none;
       position: fixed;
@@ -41,7 +41,7 @@
       justify-content: center;
       align-items: center;
       opacity: 0; /* Start invisible for fade-in */
-      transition: opacity 0.3s ease-in-out; /* Updated to 0.3s */
+      transition: opacity 0.3s ease-in-out; /* 0.3s transition */
     }
 
     /* Popup when visible */
@@ -60,8 +60,8 @@
       width: 90%; /* Slightly wider on smaller screens */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       opacity: 0; /* Start invisible for fade-in */
-      transform: translateY(20px); /* Optional: slight slide-up effect */
-      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* Updated to 0.3s */
+      transform: translateY(20px); /* Slight slide-up effect */
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; /* 0.3s transition */
     }
 
     /* Popup content when visible */
@@ -94,15 +94,23 @@
       background-color: #4d4d4d; /* Darker gray for hover */
     }
 
-    /* Link styling */
+    /* Link button styling */
     .popup-content a {
-      color: #297e23; /* Green link color */
-      text-decoration: none;
+      display: inline-block; /* Make link behave like a button */
+      background-color: #297e23; /* Green background */
+      color: white; /* White text for contrast */
+      padding: 10px 20px; /* Padding for button-like appearance */
+      border-radius: 5px; /* Rounded corners */
+      text-decoration: none; /* Remove underline */
       font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+      transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
     }
 
     .popup-content a:hover {
-      text-decoration: underline;
+      background-color: #1e5c1a; /* Darker green on hover */
+      transform: scale(1.05); /* Slight scale-up on hover */
+      text-decoration: none; /* Ensure no underline on hover */
     }
 
     /* Trigger button styling */
@@ -133,8 +141,8 @@
     <!-- Popup Modal -->
   <div id="promoPopup" class="popup">
     <div class="popup-content">
-      <img src="https://www.timesqueeze.net/_astro/dashboard.1f09bd87_Z1IX04q.webp" alt="Dashboard Preview">
       <h2>Check out my new app!</h2>
+      <img src="https://www.timesqueeze.net/_astro/dashboard.1f09bd87_Z1IX04q.webp" alt="Dashboard Preview">
       <h2>Time Squeeze</h2>
       <h3>Never lose another second.</h3>
       <p>Track your computer activity, improve your productivity, and bill every moment with Time Squeeze.</p>
