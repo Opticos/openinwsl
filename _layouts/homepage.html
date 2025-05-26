@@ -28,7 +28,7 @@
     <meta charset="UTF-8">
 
       <style>
-/* Popup container */
+        /* Popup container */
     .popup {
       display: none;
       position: fixed;
@@ -52,7 +52,7 @@
 
     /* Popup content */
     .popup-content {
-      background-color: #dfecdd; /* Light green background */
+      background-color: white; /* Reverted to original white */
       padding: 20px;
       border-radius: 8px;
       text-align: center;
@@ -79,36 +79,45 @@
       margin-bottom: 15px;
     }
 
-    /* Close button */
-    .popup-close {
-      background-color: #666666; /* Muted gray */
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
+    /* Button container for consistent alignment */
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 15px; /* Space between buttons */
       margin-top: 15px;
     }
 
+    /* Close button */
+    .popup-close {
+      background-color: #666666; /* Kept as muted gray */
+      color: white;
+      border: none;
+      padding: 10px 20px; /* Standardized padding */
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px; /* Consistent font size */
+    }
+
     .popup-close:hover {
-      background-color: #4d4d4d; /* Darker gray for hover */
+      background-color: #4d4d4d; /* Kept as darker gray for hover */
     }
 
     /* Link button styling */
     .popup-content a {
       display: inline-block; /* Make link behave like a button */
-      background-color: #297e23; /* Green background */
+      background-color: #0066cc; /* Reverted to original blue */
       color: white; /* White text for contrast */
-      padding: 10px 20px; /* Padding for button-like appearance */
+      padding: 10px 20px; /* Standardized padding */
       border-radius: 5px; /* Rounded corners */
       text-decoration: none; /* Remove underline */
-      
+      font-weight: bold;
+      font-size: 16px; /* Consistent font size */
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
       transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
     }
 
     .popup-content a:hover {
-      background-color: #1e5c1a; /* Darker green on hover */
+      background-color: #004c99; /* Reverted to original darker blue on hover */
       transform: scale(1.05); /* Slight scale-up on hover */
       text-decoration: none; /* Ensure no underline on hover */
     }
