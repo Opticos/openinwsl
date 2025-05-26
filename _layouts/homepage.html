@@ -27,6 +27,74 @@
     
     <meta charset="UTF-8">
 
+      <style>
+    /* Popup container */
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Popup content */
+    .popup-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      max-width: 400px;
+      width: 80%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Close button */
+    .popup-close {
+      background-color: #ff4444;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    .popup-close:hover {
+      background-color: #cc0000;
+    }
+
+    /* Link styling */
+    .popup-content a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .popup-content a:hover {
+      text-decoration: underline;
+    }
+
+    /* Trigger button styling */
+    .popup-trigger {
+      background-color: #0066cc;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px;
+    }
+
+    .popup-trigger:hover {
+      background-color: #004c99;
+    }
+  </style>
+
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -35,6 +103,38 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
   </head>
   <body>
+
+    <!-- Popup Modal -->
+  <div id="promoPopup" class="popup">
+    <div class="popup-content">
+      <h2>Check Out My Other Site!</h2>
+      <p>Visit my other awesome site for more great content!</p>
+      <p><a href="https://your-other-site.com" target="_blank">Go to My Other Site</a></p>
+      <button class="popup-close" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script>
+    // Function to show the popup
+    function showPopup() {
+      document.getElementById('promoPopup').style.display = 'flex';
+    }
+
+    // Function to close the popup and set localStorage
+    function closePopup() {
+      document.getElementById('promoPopup').style.display = 'none';
+      localStorage.setItem('popupShown', 'true');
+    }
+
+    // Check if popup has been shown before on page load
+    window.onload = function() {
+      if (!localStorage.getItem('popupShown')) {
+        showPopup();
+      }
+    };
+  </script>
+
+    
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
@@ -44,6 +144,7 @@
         <a href="https://www.microsoft.com/en-us/p/openinwsl/9ngmqpwcg7sf" class="btn">Get OpenInWSL On The Microsoft Store</a>
         <a href="https://opticos.github.io/gwsl" class="btn">Get GWSL XServer</a>
         <a href="https://www.timesqueeze.net" target="_blank" class="btn" style="border-color: rgba(41, 126, 35, 0.5); border-width: 2px;">New App! Track your time with Time Squeeze</a>
+        <button class="popup-trigger" onclick="showPopup()">Show Promotion</button>
       {% endif %}
       
     </header>
