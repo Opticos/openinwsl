@@ -110,7 +110,6 @@
       padding: 10px 20px; /* Standardized padding */
       border-radius: 5px; /* Rounded corners */
       text-decoration: none; /* Remove underline */
-      font-weight: bold;
       font-size: 16px; /* Consistent font size */
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
       transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth hover effects */
@@ -155,8 +154,11 @@
       <h2>Time Squeeze</h2>
       <h3>Never lose another second.</h3>
       <p>Track your computer activity, improve your productivity, and bill every moment with Time Squeeze.</p>
-      <p><a href="https://www.timesqueeze.net/" target="_blank">Check It Out</a></p>
-      <button class="popup-close" onclick="closePopup()">Close</button>
+
+      <div class="button-container">
+        <a href="https://www.timesqueeze.net/" target="_blank">Get it Now!</a>
+        <button class="popup-close" onclick="closePopup()">Close</button>
+      </div>
     </div>
   </div>
 
@@ -174,7 +176,7 @@
       setTimeout(() => {
         popup.style.display = 'none';
         localStorage.setItem('popupShown', 'true');
-      }, 500); // Match transition duration
+      }, 300); // Match transition duration
     }
 
     // Check if popup has been shown before on page load
